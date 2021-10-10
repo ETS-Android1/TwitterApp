@@ -46,10 +46,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         // Bind the tweet with view holder
 
         holder.bind(tweet);
-
-
     }
-
 
     //Pass in context and list of tweets
     @Override
@@ -66,9 +63,6 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         tweets.addAll(tweetList);
         notifyDataSetChanged();
     }
-
-
-
 
     //Define a viewholder
     public class ViewHolder extends RecyclerView.ViewHolder {
